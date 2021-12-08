@@ -63,7 +63,7 @@ module.exports = class extends Generator {
     tempfiles.forEach((file) => {
       this.fs.copyTpl(
         this.templatePath(settings.templatePath, file),
-        this.destinationPath(settings.destinationPath, file),
+        this.destinationPath('src', settings.destinationPath, file),
         settings
       );
     });
@@ -90,7 +90,7 @@ module.exports = class extends Generator {
     tempfiles.forEach((file) => {
       this.fs.copyTpl(
         this.templatePath(settings.templatePath, file),
-        this.destinationPath(settings.destinationPath, file),
+        this.destinationPath('src',settings.destinationPath, file),
         settings
       );
     });
