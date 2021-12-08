@@ -1,0 +1,23 @@
+{
+  "name": "generator-mt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "inquirer-fuzzy-path": "^2.3.0",
+    "underscore.string": "^3.3.5",
+    "yeoman-generator": "^5.4.2"
+  },
+  "files": [
+    "generators/app",
+    "generators/swh5"
+  ]
+}
